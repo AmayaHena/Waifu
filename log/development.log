@@ -45847,3 +45847,19 @@ Processing by AboutController#info as HTML
 Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 6302)
 
 
+Started GET "/about" for 127.0.0.1 at 2019-10-15 13:20:45 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AboutController#info as HTML
+  Rendering about/info.html.erb within layouts/application
+  Rendered about/info.html.erb within layouts/application (Duration: 0.4ms | Allocations: 364)
+Completed 200 OK in 517ms (Views: 513.6ms | ActiveRecord: 0.0ms | Allocations: 1436519)
+
+
+Started GET "/" for 127.0.0.1 at 2019-10-15 13:20:47 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1047)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 7219)
+
+
