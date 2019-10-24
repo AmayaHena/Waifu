@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is just a simple wsebsite about Japenese Artist on Pixiv
+https://www.pixiv.net/
 
-Things you may want to cover:
+This website was made with Ruby On Rails 6
+https://waifupics.herokuapp.com/
 
-* Ruby version
+There is not a lot of work, just css and html
+(you can find light conception of comment just add "ressources post" in routes.rb)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This code is not good at all, but if this can help you
+Enjoy
